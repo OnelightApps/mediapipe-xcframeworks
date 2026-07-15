@@ -17,3 +17,7 @@ Build the curated archive with:
 
 The script removes only objects already owned by CommonGraph and preserves the
 device arm64 plus simulator arm64/x86_64 slices.
+
+`build_curated_tasks_vision.sh` corrects the embedded framework metadata used
+by App Store validation, including `MinimumOSVersion` and the framework package
+type.
